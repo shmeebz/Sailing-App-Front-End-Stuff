@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8450D39C1F82B5CD00D06D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450D39B1F82B5CD00D06D0B /* AppDelegate.swift */; };
+		8450D39E1F82B5CE00D06D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450D39D1F82B5CD00D06D0B /* ViewController.swift */; };
+		8450D3A11F82B5CE00D06D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450D39F1F82B5CE00D06D0B /* Main.storyboard */; };
+		8450D3A31F82B5CE00D06D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8450D3A21F82B5CE00D06D0B /* Assets.xcassets */; };
+		8450D3A61F82B5CE00D06D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8450D3A41F82B5CE00D06D0B /* LaunchScreen.storyboard */; };
+		8450D3B11F82B5CE00D06D0B /* SailingAppTryAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450D3B01F82B5CE00D06D0B /* SailingAppTryAgainTests.swift */; };
+		8450D3BC1F82B5CE00D06D0B /* SailingAppTryAgainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450D3BB1F82B5CE00D06D0B /* SailingAppTryAgainUITests.swift */; };
+		847DE8AC1F8BF0DA000D4EA2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847DE8AB1F8BF0DA000D4EA2 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8450D3AD1F82B5CE00D06D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8450D3901F82B5CD00D06D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8450D3971F82B5CD00D06D0B;
+			remoteInfo = SailingAppTryAgain;
+		};
+		8450D3B81F82B5CE00D06D0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8450D3901F82B5CD00D06D0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8450D3971F82B5CD00D06D0B;
+			remoteInfo = SailingAppTryAgain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8450D3981F82B5CD00D06D0B /* SailingAppTryAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SailingAppTryAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8450D39B1F82B5CD00D06D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8450D39D1F82B5CD00D06D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8450D3A01F82B5CE00D06D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8450D3A21F82B5CE00D06D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8450D3A51F82B5CE00D06D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8450D3A71F82B5CE00D06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8450D3AC1F82B5CE00D06D0B /* SailingAppTryAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SailingAppTryAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8450D3B01F82B5CE00D06D0B /* SailingAppTryAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailingAppTryAgainTests.swift; sourceTree = "<group>"; };
+		8450D3B21F82B5CE00D06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8450D3B71F82B5CE00D06D0B /* SailingAppTryAgainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SailingAppTryAgainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8450D3BB1F82B5CE00D06D0B /* SailingAppTryAgainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SailingAppTryAgainUITests.swift; sourceTree = "<group>"; };
+		8450D3BD1F82B5CE00D06D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DE8AB1F8BF0DA000D4EA2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8450D3951F82B5CD00D06D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE8AC1F8BF0DA000D4EA2 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3A91F82B5CE00D06D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3B41F82B5CE00D06D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8450D38F1F82B5CD00D06D0B = {
+			isa = PBXGroup;
+			children = (
+				8450D39A1F82B5CD00D06D0B /* SailingAppTryAgain */,
+				8450D3AF1F82B5CE00D06D0B /* SailingAppTryAgainTests */,
+				8450D3BA1F82B5CE00D06D0B /* SailingAppTryAgainUITests */,
+				8450D3991F82B5CD00D06D0B /* Products */,
+				847DE8AA1F8BF0DA000D4EA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8450D3991F82B5CD00D06D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8450D3981F82B5CD00D06D0B /* SailingAppTryAgain.app */,
+				8450D3AC1F82B5CE00D06D0B /* SailingAppTryAgainTests.xctest */,
+				8450D3B71F82B5CE00D06D0B /* SailingAppTryAgainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8450D39A1F82B5CD00D06D0B /* SailingAppTryAgain */ = {
+			isa = PBXGroup;
+			children = (
+				8450D39B1F82B5CD00D06D0B /* AppDelegate.swift */,
+				8450D39D1F82B5CD00D06D0B /* ViewController.swift */,
+				8450D39F1F82B5CE00D06D0B /* Main.storyboard */,
+				8450D3A21F82B5CE00D06D0B /* Assets.xcassets */,
+				8450D3A41F82B5CE00D06D0B /* LaunchScreen.storyboard */,
+				8450D3A71F82B5CE00D06D0B /* Info.plist */,
+			);
+			path = SailingAppTryAgain;
+			sourceTree = "<group>";
+		};
+		8450D3AF1F82B5CE00D06D0B /* SailingAppTryAgainTests */ = {
+			isa = PBXGroup;
+			children = (
+				8450D3B01F82B5CE00D06D0B /* SailingAppTryAgainTests.swift */,
+				8450D3B21F82B5CE00D06D0B /* Info.plist */,
+			);
+			path = SailingAppTryAgainTests;
+			sourceTree = "<group>";
+		};
+		8450D3BA1F82B5CE00D06D0B /* SailingAppTryAgainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8450D3BB1F82B5CE00D06D0B /* SailingAppTryAgainUITests.swift */,
+				8450D3BD1F82B5CE00D06D0B /* Info.plist */,
+			);
+			path = SailingAppTryAgainUITests;
+			sourceTree = "<group>";
+		};
+		847DE8AA1F8BF0DA000D4EA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847DE8AB1F8BF0DA000D4EA2 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8450D3971F82B5CD00D06D0B /* SailingAppTryAgain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8450D3C01F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgain" */;
+			buildPhases = (
+				8450D3941F82B5CD00D06D0B /* Sources */,
+				8450D3951F82B5CD00D06D0B /* Frameworks */,
+				8450D3961F82B5CD00D06D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SailingAppTryAgain;
+			productName = SailingAppTryAgain;
+			productReference = 8450D3981F82B5CD00D06D0B /* SailingAppTryAgain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8450D3AB1F82B5CE00D06D0B /* SailingAppTryAgainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8450D3C31F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgainTests" */;
+			buildPhases = (
+				8450D3A81F82B5CE00D06D0B /* Sources */,
+				8450D3A91F82B5CE00D06D0B /* Frameworks */,
+				8450D3AA1F82B5CE00D06D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8450D3AE1F82B5CE00D06D0B /* PBXTargetDependency */,
+			);
+			name = SailingAppTryAgainTests;
+			productName = SailingAppTryAgainTests;
+			productReference = 8450D3AC1F82B5CE00D06D0B /* SailingAppTryAgainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8450D3B61F82B5CE00D06D0B /* SailingAppTryAgainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8450D3C61F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgainUITests" */;
+			buildPhases = (
+				8450D3B31F82B5CE00D06D0B /* Sources */,
+				8450D3B41F82B5CE00D06D0B /* Frameworks */,
+				8450D3B51F82B5CE00D06D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8450D3B91F82B5CE00D06D0B /* PBXTargetDependency */,
+			);
+			name = SailingAppTryAgainUITests;
+			productName = SailingAppTryAgainUITests;
+			productReference = 8450D3B71F82B5CE00D06D0B /* SailingAppTryAgainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8450D3901F82B5CD00D06D0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ethan Waite";
+				TargetAttributes = {
+					8450D3971F82B5CD00D06D0B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8450D3AB1F82B5CE00D06D0B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8450D3971F82B5CD00D06D0B;
+					};
+					8450D3B61F82B5CE00D06D0B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8450D3971F82B5CD00D06D0B;
+					};
+				};
+			};
+			buildConfigurationList = 8450D3931F82B5CD00D06D0B /* Build configuration list for PBXProject "SailingAppTryAgain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8450D38F1F82B5CD00D06D0B;
+			productRefGroup = 8450D3991F82B5CD00D06D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8450D3971F82B5CD00D06D0B /* SailingAppTryAgain */,
+				8450D3AB1F82B5CE00D06D0B /* SailingAppTryAgainTests */,
+				8450D3B61F82B5CE00D06D0B /* SailingAppTryAgainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8450D3961F82B5CD00D06D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450D3A61F82B5CE00D06D0B /* LaunchScreen.storyboard in Resources */,
+				8450D3A31F82B5CE00D06D0B /* Assets.xcassets in Resources */,
+				8450D3A11F82B5CE00D06D0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3AA1F82B5CE00D06D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3B51F82B5CE00D06D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8450D3941F82B5CD00D06D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450D39E1F82B5CE00D06D0B /* ViewController.swift in Sources */,
+				8450D39C1F82B5CD00D06D0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3A81F82B5CE00D06D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450D3B11F82B5CE00D06D0B /* SailingAppTryAgainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8450D3B31F82B5CE00D06D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8450D3BC1F82B5CE00D06D0B /* SailingAppTryAgainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8450D3AE1F82B5CE00D06D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8450D3971F82B5CD00D06D0B /* SailingAppTryAgain */;
+			targetProxy = 8450D3AD1F82B5CE00D06D0B /* PBXContainerItemProxy */;
+		};
+		8450D3B91F82B5CE00D06D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8450D3971F82B5CD00D06D0B /* SailingAppTryAgain */;
+			targetProxy = 8450D3B81F82B5CE00D06D0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8450D39F1F82B5CE00D06D0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8450D3A01F82B5CE00D06D0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8450D3A41F82B5CE00D06D0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8450D3A51F82B5CE00D06D0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8450D3BE1F82B5CE00D06D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8450D3BF1F82B5CE00D06D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8450D3C11F82B5CE00D06D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29K848L742;
+				INFOPLIST_FILE = SailingAppTryAgain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8450D3C21F82B5CE00D06D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29K848L742;
+				INFOPLIST_FILE = SailingAppTryAgain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8450D3C41F82B5CE00D06D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailingAppTryAgainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SailingAppTryAgain.app/SailingAppTryAgain";
+			};
+			name = Debug;
+		};
+		8450D3C51F82B5CE00D06D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailingAppTryAgainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SailingAppTryAgain.app/SailingAppTryAgain";
+			};
+			name = Release;
+		};
+		8450D3C71F82B5CE00D06D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailingAppTryAgainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SailingAppTryAgain;
+			};
+			name = Debug;
+		};
+		8450D3C81F82B5CE00D06D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SailingAppTryAgainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ethan.SailingAppTryAgainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SailingAppTryAgain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8450D3931F82B5CD00D06D0B /* Build configuration list for PBXProject "SailingAppTryAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450D3BE1F82B5CE00D06D0B /* Debug */,
+				8450D3BF1F82B5CE00D06D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8450D3C01F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450D3C11F82B5CE00D06D0B /* Debug */,
+				8450D3C21F82B5CE00D06D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8450D3C31F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450D3C41F82B5CE00D06D0B /* Debug */,
+				8450D3C51F82B5CE00D06D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8450D3C61F82B5CE00D06D0B /* Build configuration list for PBXNativeTarget "SailingAppTryAgainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8450D3C71F82B5CE00D06D0B /* Debug */,
+				8450D3C81F82B5CE00D06D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8450D3901F82B5CD00D06D0B /* Project object */;
+}
